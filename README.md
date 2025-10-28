@@ -10,9 +10,9 @@ Este repositorio contiene todo el material práctico del bootcamp. Iniciaremos c
 
 Aquí encontrarás el código fuente de los proyectos que desarrollaremos a lo largo del bootcamp. Por ahora, hemos comenzado con los fundamentos de Java:
 
-* **[00-HolaMundo](./00-HolaMundo)**: Nuestro primer programa. Un clásico "Hola, Mundo" para familiarizarnos con la sintaxis y la estructura de un proyecto en Java.
+* **[00-hola-mundo](./00-hola-mundo)**: Nuestro primer programa. Un clásico "Hola, Mundo" para familiarizarnos con la sintaxis y la estructura de un proyecto en Java.
 
-* **[01-Variables](./01-Variables)**: Proyecto enfocado en entender y practicar el uso de variables, tipos de datos y operadores básicos en Java.
+* **[01-variables](./01-variables)**: Proyecto enfocado en entender y practicar el uso de variables, tipos de datos y operadores básicos en Java.
 
 ## 🛠️ ¿Cómo usar este repositorio?
 
