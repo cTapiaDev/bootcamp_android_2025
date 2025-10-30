@@ -74,5 +74,34 @@ public class App {
 
         System.out.println("var (entero): El compilador infiere el tipo 'int': " + numeroInferido);
         System.out.println("var (texto): El compilador infiere el tipo 'String': " + textoInferido);
+
+
+
+
+        System.out.println("\n-----------------------------");
+        System.out.println("-----------------------------");
+        System.out.println("-----------------------------\n");
+
+
+        String nombreCompleto = "Juan Pérez";
+        int edad = 25;
+        double salarioDeseado = 2500.00;
+        boolean leGustanLosVideojuegos = true;
+
+        System.out.println("--- Perfil del Usuario ---");
+        System.out.println("Nombre: " + nombreCompleto);
+        System.out.println("Edad: " + edad + " años");
+        System.out.println("Salario: $" + salarioDeseado);
+        System.out.println("¿Le gustan los videojuegos?: " + leGustanLosVideojuegos);
+
+
+        System.out.println("\n-----------------------------");
+        System.out.println("-----------------------------");
+        System.out.println("-----------------------------\n");
+
+        int cantidadManzanas = 5;
+        double temperatura = 25.5;
+        char colorPuerta = 'R';
+        boolean hayClases = true;
     }
 }
