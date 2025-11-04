@@ -83,6 +83,7 @@ public class App {
 
         // Incrementar en 1
         int vidas = 3;
+        // vidas = vidas + 1;
         vidas++;
         System.out.println("Vidas después de incrementar: " + vidas);
 
@@ -100,5 +101,22 @@ public class App {
          * Mayor o igual que (>=)
          * Menor o igual que (<=)
          */
+
+        int edad1 = 25;
+        int edad2 = 25;
+
+        boolean sonIguales = edad1 == edad2;
+        boolean sonDiferentes = edad1 != edad2;
+        boolean esMayor = edad1 > edad2;
+        boolean esMenor = edad1 < edad2;
+        boolean esMayorIgual = edad1 >= edad2;
+        boolean esMenorIgual = edad1 <= edad2;
+
+        System.out.println("¿Tienen la misma edad?: " + sonIguales);
+        System.out.println("¿Tienen edades diferentes?: " + sonDiferentes);
+        System.out.println("¿Su edad es mayor?: " + esMayor);
+        System.out.println("¿Su edad es menor?: " + esMenor);
+        System.out.println("¿Su edad es mayor o igual?: " + esMayorIgual);
+        System.out.println("¿Su edad es menor o igual?: " + esMenorIgual);
     }
 }
