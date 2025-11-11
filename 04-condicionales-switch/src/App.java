@@ -89,6 +89,26 @@ public class App {
         int diaSemana = 3;
         String nombreDia;
 
+        if (diaSemana == 1) {
+            nombreDia = "Lunes";
+        } else if (diaSemana == 2) {
+            nombreDia = "Martes";
+        } else if (diaSemana == 3) {
+            nombreDia = "Miércoles";
+        } else if (diaSemana == 4) {
+            nombreDia = "Jueves";
+        } else if (diaSemana == 5) {
+            nombreDia = "Viernes";
+        } else if (diaSemana == 6) {
+            nombreDia = "Sábado";
+        } else if (diaSemana == 7) {
+            nombreDia = "Domingo";
+        } else {
+            nombreDia = "Día inválido";
+        }
+
+        System.out.println("El día " + diaSemana + " es: " + nombreDia + " (else-if)");
+
         switch (diaSemana) {
             case 1: 
                 nombreDia = "Lunes";
