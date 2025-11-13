@@ -31,27 +31,27 @@ public class App {
         System.out.println("----------------\n");
 
         // Adivina el número
-        int numeroSecreto = (int)(Math.random() * 100) + 1; // Rango 1-100
-        Scanner sc = new Scanner(System.in);
+        // int numeroSecreto = (int)(Math.random() * 100) + 1; // Rango 1-100
+        // Scanner sc = new Scanner(System.in);
 
-        int intentoJugador = 0;
+        // int intentoJugador = 0;
 
-        System.out.println("Estoy pensando en un número entre 1 y 100...");
-        while (intentoJugador != numeroSecreto) {
+        // System.out.println("Estoy pensando en un número entre 1 y 100...");
+        // while (intentoJugador != numeroSecreto) {
 
-            System.out.print("Ingresa el número: ");
-            intentoJugador = sc.nextInt();
+        //     System.out.print("Ingresa el número: ");
+        //     intentoJugador = sc.nextInt();
 
-            if (intentoJugador == numeroSecreto) {
-                System.out.println("¡GANASTE! Adivinaste el número secreto (" + numeroSecreto + ")");
-            } else if (intentoJugador > numeroSecreto) {
-                System.out.println("¡Fallaste! El número secreto es MÁS BAJO");
-            } else {
-                System.out.println("¡Fallaste! El número secreto es MÁS ALTO");
-            }
-        }
+        //     if (intentoJugador == numeroSecreto) {
+        //         System.out.println("¡GANASTE! Adivinaste el número secreto (" + numeroSecreto + ")");
+        //     } else if (intentoJugador > numeroSecreto) {
+        //         System.out.println("¡Fallaste! El número secreto es MÁS BAJO");
+        //     } else {
+        //         System.out.println("¡Fallaste! El número secreto es MÁS ALTO");
+        //     }
+        // }
 
-        sc.close();
+        // sc.close();
 
 
         System.out.println("\n----------------");
@@ -197,6 +197,85 @@ public class App {
         System.out.println("¿Comparando con .equals()?: " + (contrasenaGuardada.equals(inputUsuario)));
 
         System.out.println("¿Comparando con .equalsIgnoreCase()?: " + (contrasenaGuardada.equalsIgnoreCase(inputUsuario)));
+
+
+
+        System.out.println("\n----------------");
+        System.out.println("----------------\n");
+
+        // contains(texto)
+        /*
+         * Solo de vuelve un true o un false.
+         * En caso de que el String contenga lo que buscamos.
+         */
+
+        String mensaje = "Este es un mensaje de oferta";
+
+        if (mensaje.contains("oferta")) {
+            System.out.println("La palabra si existe");
+        } else {
+            System.out.println("La palabra no existe");
+        }
+
+
+
+        System.out.println("\n----------------");
+        System.out.println("----------------\n");
+
+        // startsWith(prefijo) - endsWith(sufijo)
+        /*
+         * Podemos comprobar si el String empieza o termina con un texto específico.
+         */
+
+        String nombreArchivo = "documento_prueba.pdf";
+        String url = "http://www.google.com";
+
+        if (nombreArchivo.endsWith(".pdf")) {
+            System.out.println("Es un archivo PDF válido");
+        } else {
+            System.out.println("Carga un archivo con el formato correcto");
+        }
+
+        if (!url.startsWith("https://")) {
+            System.out.println("¡Advertencia! La conexión no es segura");
+        }
+
+
+
+
+        System.out.println("\n----------------");
+        System.out.println("----------------\n");
+
+        // isEmpty() y isBlank()
+        /*
+         * isEmpty() --> Devuelve un true solo si el largo es 0 --> ""
+         * isBlank() --> Devuelve un true si el largo es 0 o si contiene espacios en blanco --> " ", "   "
+         */
+
+        String input1 = "";
+        String input2 = "   ";
+
+        System.out.println("Input 1 -- isEmpty: " + input1.isEmpty()); // true
+        System.out.println("Input 2 -- isEmpty: " + input2.isEmpty()); // false
+        System.out.println("Input 1 -- isBlank: " + input1.isBlank()); // true
+        System.out.println("Input 2 -- isBlank: " + input2.isBlank()); // true
+
+
+
+        System.out.println("\n----------------");
+        System.out.println("----------------\n");
+
+        // split(separador)
+
+        String datos = "Manzana,Pera,Naranja,Plátano";
+        
+        String[] frutas = datos.split(",");
+
+        System.out.println("Mi lista de frutas tiene " + frutas.length + " frutas");
+
+        for (String fruta : frutas) {
+            System.out.println("- " + fruta);
+        }
 
 
 
