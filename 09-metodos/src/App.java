@@ -64,7 +64,7 @@ public class App {
             return 0.0;
         }
 
-        return suma / notas.length;
+        return suma / notas.length; // NaN --> Not a Number
     }
 
 }
