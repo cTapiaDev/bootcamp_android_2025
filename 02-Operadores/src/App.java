@@ -54,7 +54,7 @@ public class App {
         String presentacion = "Mi nombre es " + nombre + " y tengo " + edad + " años.";
         System.out.println(presentacion);
 
-        System.out.println("Cálculo erróneo: 10 + 5 = " + 10 + 5);
+        System.out.println("Cálculo erróneo: 10 + 5 = 10" + 10 + 5);
         System.out.println("Cálculo correcto: 10 + 5 = " + (10 + 5));
 
 

@@ -49,7 +49,7 @@ public class App {
 
 
 
-        // CONDICIONAL IF ELSE-IF
+        // CONDICIONAL IF ELSE-IF // ELIF
         /*
          * if (luz == "Rojo") { Detener el auto }
          * else if (luz == "Amarillo") { Bajar la velocidad }
@@ -116,7 +116,7 @@ public class App {
 
         System.out.println("Cliente comprando por $" + precioBase);
 
-        if (esEstudiante == true) {
+        if (esEstudiante) { // (esEstudiante == true)
             System.out.println("Aplicando descuento de estudiante...");
             double montoDescuento = precioBase * DESCUENTO;
             precioFinal = precioBase - montoDescuento;
@@ -237,7 +237,7 @@ public class App {
             double comision = comisionA * boleta;
             System.out.println("Gana 10% de comision por una Boleta de: $" + boleta + " y Obtuvo una comision de: $" + comision);
             
-        } else if(boleta <= 10000 & boleta >= 5000){
+        } else if(boleta <= 10000 && boleta >= 5000){
 
             double comision = comisionB * boleta;
             System.out.println("Gana 5% de comision por una Boleta de: $" + boleta + " y Obtuvo una comision de: $" + comision);

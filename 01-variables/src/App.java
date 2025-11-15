@@ -59,7 +59,7 @@ public class App {
 
         // CONSTANTES
         System.out.println("\n--- 3. Constantes ---");
-        // Se declara con la palabra "final". Por convención, se escriben en mayúscula.
+        // Se declara con la palabra "final". Por convención, se escriben en mayúscula. MI_VARIABLE
         final double PI = 3.14;
         System.out.println("final: " + PI);
 
