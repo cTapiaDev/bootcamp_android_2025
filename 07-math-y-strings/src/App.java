@@ -30,7 +30,7 @@ public class App {
         System.out.println("\n----------------");
         System.out.println("----------------\n");
 
-        // Adivina el número
+        // // Adivina el número
         // int numeroSecreto = (int)(Math.random() * 100) + 1; // Rango 1-100
         // Scanner sc = new Scanner(System.in);
 
@@ -130,7 +130,7 @@ public class App {
         System.out.println("Respuesta original: [" + respuestaUsuario + "]");
 
         // .trim() --> Quita los espacios al principio y al final
-        String respuestaLimpia = respuestaUsuario.trim().toLowerCase();
+        String respuestaLimpia = respuestaUsuario.trim().toLowerCase(); // "Si" -> "si"
         System.out.println("Respuesta limpia: [" + respuestaLimpia + "]");
 
         if (respuestaLimpia.equals("si")) { // equals me sirve para comprar cadenas
@@ -165,7 +165,7 @@ public class App {
         System.out.println("----------------\n");
 
 
-        // Ejercicio: Generador de Nombres
+        // Ejercicio: Generador de Nombres de Usuario
         String nombre = "Juan";
         String apellido = "Santana";
 

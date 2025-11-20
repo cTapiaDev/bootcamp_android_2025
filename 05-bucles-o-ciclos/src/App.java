@@ -17,7 +17,7 @@ public class App {
 
         while (contador <= 5) {
             System.out.println("Conteo: " + contador);
-            contador++;
+            contador++; // Incrementador
         }
 
         System.out.println("¡Bucle terminado! Contador final: " + contador);
@@ -99,7 +99,7 @@ public class App {
         int sumaTotal = 0;
         for (int i = 1; i <= 100; i++) {
             System.out.print(sumaTotal + " + " + i);
-            sumaTotal += i;
+            sumaTotal += i; // sumaTotal = sumaTotal + i;
             System.out.println(" = " + sumaTotal);
         }
 

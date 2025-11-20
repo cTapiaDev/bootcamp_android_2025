@@ -15,7 +15,7 @@ public class App {
          * false && false = false
          */
 
-        boolean carnet = true;
+        boolean carnet = false;
         boolean entrada = true;
 
         System.out.println("¿Tiene carnet?: " + carnet);
@@ -64,7 +64,9 @@ public class App {
          * !true = false
          * !false = true
          * 
-         * if (!estaLloviendo)
+         * boolean estaLloviendo = false;
+         * 
+         * if (!estaLloviendo) {}
          */
 
         boolean tieneMembresia = true;

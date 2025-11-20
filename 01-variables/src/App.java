@@ -33,7 +33,6 @@ public class App {
         // double: número decimal más común y preciso.
         double numeroDouble = 3.141516;
         System.out.println("double: " + numeroDouble);
-
         
         // --- Otros tipos de datos Primitivos ---
         // boolean: Solo pueden ser verdadero (true) o falso (false)

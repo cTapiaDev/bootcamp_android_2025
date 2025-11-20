@@ -13,11 +13,12 @@ public class App {
         numeros[1] = 7;
         numeros[2] = 10;
         numeros[3] = 6;
+        // [9, 7, 10, 6]
 
         System.out.println("La primera nota es: " + numeros[0]);
         System.out.println("El tercer día es: " + diasDeSemana[2]);
 
-        System.out.println("Tengo " + numeros.length + " notas");
+        System.out.println("Tengo " + numeros.length + " notas"); // numeros.length = 4 -> indice mayor es 3 (0-3)
         System.out.println("Tengo " + diasDeSemana.length + " días");
 
 

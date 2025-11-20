@@ -22,14 +22,14 @@ public class App {
         // MATRIX
         char[][] tablero = new char[3][3];
         tablero[0][0] = 'X';
+// 
+        int[][] numeros = {
+                { 1, 2, 3 },
+                { 4, 5, 6 },
+                { 7, 8, 9 }
+        };
 
-        // int[][] numeros = {
-        //         { 1, 2, 3 },
-        //         { 4, 5, 6 },
-        //         { 7, 8, 9 }
-        // };
-
-        // System.out.println(numeros[1][2]); // 6
+        System.out.println(numeros[1][2]); // 6
 
         // imprimirMatrix(numeros);
 
@@ -58,36 +58,36 @@ public class App {
         // System.out.println("Aqui podra disfrutar del mejor cine nacional ZZzzzZZz");
 
         // int[][] sala = {
-        // { 0, 0, 0, 0, 0 },
-        // { 0, 0, 0, 0, 0 },
-        // { 0, 0, 0, 0, 0 },
-        // { 0, 0, 0, 0, 0 },
-        // { 0, 0, 0, 0, 0 }
+        //         { 0, 0, 0, 0, 0 },
+        //         { 0, 0, 0, 0, 0 },
+        //         { 0, 0, 0, 0, 0 },
+        //         { 0, 0, 0, 0, 0 },
+        //         { 0, 0, 0, 0, 0 }
         // };
 
         // Scanner sc = new Scanner(System.in);
         // int opciones = 0;
 
         // do {
-        // System.out.println("Menú: ");
-        // System.out.println("1.- Ver asientos disponibles");
-        // System.out.println("2.- Reservar asientos");
-        // System.out.println("0.- Salir");
-        // opciones = sc.nextInt();
+        //     System.out.println("Menú: ");
+        //     System.out.println("1.- Ver asientos disponibles");
+        //     System.out.println("2.- Reservar asientos");
+        //     System.out.println("0.- Salir");
+        //     opciones = sc.nextInt();
 
-        // switch (opciones) {
-        // case 1:
-        // VerAsientos(sala);
-        // break;
-        // case 2:
-        // ReservarAsientos(sala);
-        // break;
-        // case 0:
-        // System.out.println("Saliendo...");
-        // break;
-        // default:
-        // break;
-        // }
+        //     switch (opciones) {
+        //         case 1:
+        //             verAsientos(sala);
+        //             break;
+        //         case 2:
+        //             reservarAsientos(sala);
+        //             break;
+        //         case 0:
+        //             System.out.println("Saliendo...");
+        //             break;
+        //         default:
+        //             break;
+        //     }
 
         // } while (opciones != 0);
 
@@ -191,8 +191,8 @@ public class App {
         int barcosColocados = 0;
 
         while (barcosColocados < TOTAL_BARCOS) {
-            int fila = (int)(Math.random() * TAMANO_TABLERO);
-            int col = (int)(Math.random() * TAMANO_TABLERO);
+            int fila = (int) (Math.random() * TAMANO_TABLERO);
+            int col = (int) (Math.random() * TAMANO_TABLERO);
 
             if (tablero[fila][col] == AGUA_REAL) {
                 tablero[fila][col] = BARCO_REAL;
@@ -222,7 +222,8 @@ public class App {
                 filaUsuario--;
                 colUsuario--;
 
-                if (filaUsuario < 0 || filaUsuario >= TAMANO_TABLERO || colUsuario < 0 || colUsuario >= TAMANO_TABLERO) {
+                if (filaUsuario < 0 || filaUsuario >= TAMANO_TABLERO || colUsuario < 0
+                        || colUsuario >= TAMANO_TABLERO) {
                     System.out.println("Coordenadas fuera del tablero. Intenta de nuevo.");
                     continue; // SALTA LA ITERACIÓN DEL BUCLE
                 }
@@ -231,7 +232,7 @@ public class App {
                     System.out.println("Ya disparaste en esa coordenada. Intenta de nuevo.");
                     continue;
                 }
-   
+
             } catch (InputMismatchException e) {
                 System.out.println("ERROR: Debes ingresar números.");
                 SC.next();
@@ -269,8 +270,6 @@ public class App {
         }
     }
 
-
-
     // public static void imprimirMatrix(int[][] matrix) {
 
     // // Bucle externo
@@ -285,41 +284,41 @@ public class App {
     // }
     // }
 
-    // public static void VerAsientos(int[][] salaCine) {
-    // System.out.println("Asientos disponibles estan marcados por un 0, los ya
-    // reservados por un 1.");
+    // public static void verAsientos(int[][] salaCine) {
+    //     System.out.println("Asientos disponibles estan marcados por un 0, los ya reservados por un 1.");
 
-    // for (int i = 0; i < salaCine.length; i++) {
-    // for (int j = 0; j < salaCine[i].length; j++) {
-    // System.out.print(salaCine[i][j] + " ");
-    // }
-    // System.out.println();
-    // }
-    // }
-
-    // public static int ReservarAsientos(int[][] salaCine) {
-    // Scanner reserva = new Scanner(System.in);
-
-    // System.out.println("Ingrese la fila (1 a " + salaCine.length + "): ");
-    // int fila = reserva.nextInt() - 1;
-
-    // System.out.println("Ingrese la columna (1 a " + salaCine[0].length + "): ");
-    // int columna = reserva.nextInt() - 1;
-
-    // if (fila < 0 || fila >= salaCine.length || columna < 0 || columna >=
-    // salaCine[0].length) {
-    // System.out.println("¡Asiento no existe!. Intente nuevamente.");
-    // return 0;
+    //     for (int i = 0; i < salaCine.length; i++) {
+    //         for (int j = 0; j < salaCine[i].length; j++) {
+    //             System.out.print(salaCine[i][j] + " ");
+    //         }
+    //         System.out.println();
+    //     }
     // }
 
-    // if (salaCine[fila][columna] == 0) {
-    // salaCine[fila][columna] = 1;
-    // System.out.println("Asiento reservado con éxito.");
-    // return 1;
-    // } else {
-    // System.out.println("¡Asiento no disponible! Selecciona otro.");
-    // return 0;
-    // }
+    // public static int reservarAsientos(int[][] salaCine) {
+    //     Scanner reserva = new Scanner(System.in);
+
+    //     System.out.println("Ingrese la fila (1 a " + salaCine.length + "): ");
+    //     int fila = reserva.nextInt() - 1;
+
+    //     System.out.println("Ingrese la columna (1 a " + salaCine[0].length + "): ");
+    //     int columna = reserva.nextInt() - 1;
+
+    //     if (fila < 0 || fila >= salaCine.length || columna < 0 || columna >= salaCine[0].length) {
+    //         System.out.println("¡Asiento no existe!. Intente nuevamente.");
+    //         return 0; 
+    //     }
+
+    //     if (salaCine[fila][columna] == 0) {
+    //         salaCine[fila][columna] = 1;
+    //         System.out.println("Asiento reservado con éxito.");
+    //         return 1;
+    //     } else {
+    //         System.out.println("¡Asiento no disponible! Selecciona otro.");
+    //         return 0;
+    //     }
+
+        
 
     // }
 
