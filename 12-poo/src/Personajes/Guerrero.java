@@ -2,7 +2,7 @@ package Personajes;
 public class Guerrero extends Personaje {
     
     // HEREDO DESDE PERSONAJE
-    public Guerrero(String nombre) {
+    public Guerrero(String nombre) { 
         super(nombre, "Guerrero", 150, 15, 5);
     }
 
