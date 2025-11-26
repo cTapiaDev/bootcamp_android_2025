@@ -3,10 +3,14 @@ bin/
 
 *.log
 
+.vscode/
+*.code-workspace
+
 *.jar
 *.war
 *.ear
 
+target/
 /target/
 /build/
 .gradle/
@@ -16,6 +20,11 @@ bin/
 *.iml
 *.ipr
 *.iws
+
+.metadata
+.classpath
+.project
+.settings/
 
 .DS_Store
 Thumbs.db
