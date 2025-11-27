@@ -20,6 +20,27 @@ package com.ejerciciostest;
  * --- Probar que no se puedan agregar 6 jugadores (assertThrows).
  */
 
+// -----------------------------------------------
+
+/**
+ * Interfaz -> Mantenible
+ * --- Método: realizarMantenimiento() -> Resetea el contador de horas. (Esto es una idea, aquí no lleva nada).
+ * 
+ * Clase Abstracta -> Maquina (Implements)
+ * --- Atributos: modelo, horasUso, limiteHoras
+ * --- Método abstracto: trabajar(int horas)
+ * 
+ * Clases Concretas (Hijas):
+ * -> Excavadora (Combustible): Al trabajar, suma horas. Si pasa el limite, lanza una excepción.
+ * -> GruaElectrica (Electricas): Igual a la de arriba, pero tiene un atributo nivelBateria. Si trabaja y no tiene batería, lanza excepción.
+ * 
+ * Excepción -> Controlarlo con un print. (Cualquier maquina que sobrepase el limite de horas, cae aquí)
+ * 
+ * Sistema de Inventario (HashMap)
+ * --- HashMap<String, Maquina> - El String simula un código de serie.
+ * --- Método: asignarTrabajo(String codigo, int horas) -> Busca en el mapa y ejecuta trabajar().
+ * --- (opcional) --> try-catch para capturar si la máquina se avería.
+ */
 
 public class App 
 {
