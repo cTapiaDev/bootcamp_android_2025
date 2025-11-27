@@ -11,18 +11,17 @@ public class CalculadoraTest {
 
     Calculadora calculadora;
 
-    @Test
-    public void testSumar() {
-        Calculadora calculadora = new Calculadora();
-        int resultado = calculadora.sumar(5, 5);
-
-        assertEquals(10, resultado);
-    }
-
     @BeforeEach // Se ejecuta antes de cada @Test
     void setup() {
         calculadora = new Calculadora();
         System.out.println("Método setup...");
+    }
+
+    @Test
+    void testSumar() {
+        int resultado = calculadora.sumar(5, 5);
+
+        assertEquals(10, resultado);
     }
 
     @Test

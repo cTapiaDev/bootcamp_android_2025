@@ -7,7 +7,9 @@ public class Calculadora {
     }
 
     public double dividir(double a, double b) {
-        if (b == 0) throw new ArithmeticException("No dividir por cero");
+        if (b == 0) {
+            throw new ArithmeticException("No dividir por cero");
+        }
         return a / b;
     }
 
