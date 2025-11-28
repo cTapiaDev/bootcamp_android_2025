@@ -1,4 +1,4 @@
-package com.ejerciciostest;
+package com.ejerciciostest.EquipoJugador;
 
 public class Jugador {
     protected String nickname;

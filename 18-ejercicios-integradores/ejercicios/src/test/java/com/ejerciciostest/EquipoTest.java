@@ -7,6 +7,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import com.ejerciciostest.EquipoJugador.Equipo;
+import com.ejerciciostest.EquipoJugador.Jugador;
+import com.ejerciciostest.EquipoJugador.JugadorPro;
+
 public class EquipoTest {
     
     Equipo equipo;

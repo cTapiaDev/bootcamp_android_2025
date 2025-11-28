@@ -1,4 +1,4 @@
-package com.ejerciciostest;
+package com.ejerciciostest.EquipoJugador;
 
 public class JugadorPro extends Jugador {
     private String nivelExperiencia; // Junior, Mid o Senior

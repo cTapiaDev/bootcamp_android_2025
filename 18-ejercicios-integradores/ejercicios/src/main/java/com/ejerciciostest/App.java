@@ -36,16 +36,23 @@ package com.ejerciciostest;
  * 
  * Excepción -> Controlarlo con un print. (Cualquier maquina que sobrepase el limite de horas, cae aquí)
  * 
- * Sistema de Inventario (HashMap)
+ * Sistema de Inventario (HashMap) (Es la class que tiene el main)
  * --- HashMap<String, Maquina> - El String simula un código de serie.
- * --- Método: asignarTrabajo(String codigo, int horas) -> Busca en el mapa y ejecuta trabajar().
+ * --- Método: asignarTrabajo(String código, int horas) -> Busca en el mapa y ejecuta trabajar().
  * --- (opcional) --> try-catch para capturar si la máquina se avería.
+ * 
+ * Si toman el opcional, recuerden que la validación se podría hacer en trabajar() throws MaquinaExcepcion;
  */
 
 public class App 
 {
+    // --- Sistema de Inventario ---
     public static void main( String[] args )
     {
         
+    }
+
+    public static void asignarTrabajo(String codigo, int horas) {
+
     }
 }

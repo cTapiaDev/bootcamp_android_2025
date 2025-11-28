@@ -1,4 +1,4 @@
-package com.ejerciciostest;
+package com.ejerciciostest.EquipoJugador;
 
 import java.util.ArrayList;
 
