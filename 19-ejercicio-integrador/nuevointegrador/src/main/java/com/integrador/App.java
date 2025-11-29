@@ -22,10 +22,10 @@ package com.integrador;
  * - Regla Lámpara: Tiene un consumo base de 5 watts, pero si el brillo es mayor al 80%, consume un 20% extra.
  * - Regla Termostato: Su consumo es de 2000 watts, pero si la diferencia entre temperatura actual y deseada es menor a 2 grados, 
  * consume la mitad de watts (1000).
- * - Regla Televisor: Tiene un consumo de 150 watts, pero si está en "modo espera", consume una constante de 5 watts.
+ * - Regla Televisor: Tiene un consumo de 150 watts, pero si está en "modo espera" (estado = apagado), consume una constante de 5 watts.
  * 
  * 3. El Hub Central (Gestor/main)
- * - Administrar la lista de dispositivos electronicos.
+ * - Administrar la lista de dispositivos electrónicos.
  * - Se debe hacer prueba de:
  * --> Agregar/Eliminar dispositivos.
  * --> Encender/Apagar todos los dispositivos. (Centralizado o por ubicación).
