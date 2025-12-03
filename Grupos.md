@@ -5,7 +5,7 @@
 * **Manuel Damke Delgado**
 * **Luis Zúñiga Zúñiga**
 * **Felipe Martínez Beltrán**
-* **Claudia Castro Vergara**
+* **<s>Claudia Castro Vergara</s>**
 
 ---
 
@@ -20,10 +20,10 @@
 
 ### ⚡ VORTEX
 
-* **Luis Castillo Isla**
+* **Luis Castillo Isla** ❓❓❓
 * **Cristian Pérez Lecaros**
-* **Álvaro López Aravena**
-* **Jonathan Garcés Garcés**
+* **Álvaro López Aravena** ❓❓❓
+* **Jonathan Garcés Garcés** ❓❓❓
 
 ---
 
@@ -31,7 +31,7 @@
 
 * **Constanza Pacheco Escobar**
 * **Gerardo Bravo Rodríguez**
-* **Patricio Gómez Pereira**
+* **Patricio Gómez Pereira** ❓❓❓
 * **Carla Alarcón Quezada**
 
 ---
