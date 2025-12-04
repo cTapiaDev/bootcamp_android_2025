@@ -18,20 +18,11 @@
 
 ---
 
-### ⚡ VORTEX
-
-* **Luis Castillo Isla** ❓❓❓
-* **Cristian Pérez Lecaros**
-* **Álvaro López Aravena** ❓❓❓
-* **Jonathan Garcés Garcés** ❓❓❓
-
----
-
 ### 🦍 TITÁN
 
 * **Constanza Pacheco Escobar**
 * **Gerardo Bravo Rodríguez**
-* **Patricio Gómez Pereira** ❓❓❓
+* **Cristian Pérez Lecaros**
 * **Carla Alarcón Quezada**
 
 ---
@@ -52,3 +43,13 @@
 * **Marcos Argandoña Ugarte**
 * **Jorge Ferrada Fernández**
 * **Claudio Padilla Leal**
+
+---
+
+
+### ⚡ VORTEX
+
+* **Luis Castillo Isla** ❓❓❓
+* **Álvaro López Aravena** ❓❓❓
+* **Jonathan Garcés Garcés** ❓❓❓
+* **Patricio Gómez Pereira** ❓❓❓
