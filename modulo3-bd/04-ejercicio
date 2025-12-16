@@ -1,0 +1,33 @@
+-- Parte 1 (DDL)
+-- 1. Crea una base de datos con el nombre pizza_planet_db
+-- 2. Crea una tabla productos:
+	-- Debe tener ID, nombre, descripción, precio y categoria.
+    -- La categoria debe llevar un ENUM: 'Pizzas', 'Bebidas', 'Postres'.
+    -- El precio no puede ser nulo.
+-- 3. Crea una tabla clientes:
+	-- Debe tener ID, nombre, dirección y teléfono.
+    -- El teléfono debe ser único.
+-- 4. Creación de estructura de ventas.
+	-- Tabla pedidos: Quién compró (ID_cliente), cuándo (fecha/hora automática) y el total.
+    -- Tabla detalle-pedido: Qué productos incluye ese pedido, cantidad y el precio de venta.
+    -- IMPORTANTE: Establecer correctamente las Foreign Keys. Pueden agregarle una dependencia de borrado automático.
+	-- (ON DELETE CASCADE).
+
+
+
+-- 1
+CREATE DATABASE IF NOT EXISTS pizza_planet_db;
+USE pizza_planet_db;
+
+-- 2
+CREATE TABLE productos (
+	id_producto INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    descripcion TEXT,
+    precio DECIMAL(8, 2) NOT NULL,
+    categoria ENUM('Pizzas', 'Bebidas', 'Postres') DEFAULT 'Pizzas' NOT NULL
+);
+
+DESCRIBE productos;
+
+-- 3
