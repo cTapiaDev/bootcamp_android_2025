@@ -1,0 +1,32 @@
+-- Proyecto StreamDB
+-- Debes diseñar la base de datos para una plataforma de streaming que gestione usuarios, el catálogo de películas y
+-- el historial de visualizaciones.
+
+-- Objetivo: Modelar, crear y poblar una base de datos relacional.
+
+-- Entidades Requeridas:
+-- Usuario: id_usuario (PK), nombre, email, plan (ej. 'Básico, 'Premium').
+-- Película: id_pelicula (PK), titulo, genero, lanzamiento (año de lanzamiento)
+-- Visualización: id_visualizacion (PK), id_usuario (FK), id_pelicula (FK), fecha_hora
+
+-- 1. Entorno y Creación
+	-- Crea la base de datos.
+	-- Selecciona la base de datos.
+    -- Verifica la creación listando las base de datos disponibles.
+    
+-- 2. DDL
+	-- Crear las tablas de Usuario, Pelicula y Visualizacion.
+    -- Definir correctamente las Primary Keys y los tipos de datos.
+    -- Establecer las Foreign Keys y sus respectivas uniones.
+    -- Aplicar restricciones NOT NULL en campos que pueda ser obligatorios (ej. email, titulo, etc.)
+    
+-- 3. DML
+	-- INSERT: Agregar 5 usuarios, 5 películas y 10 registros de visualizaciones.
+    -- UPDATE: Modificar el plan de un usuario de 'Básico' a 'Premium'.
+    -- DELETE: Eliminar una visualización específica por su ID.
+    
+-- 4. Consultas
+	-- Listar todas las películas del género "Ciencia Ficción".
+    -- Mostrar el nombre del usuario y el título de la película que vio.
+    -- Contar cuántas películas ha visto cada usuario.
+    -- Obtener el usuario que ha visto más películas.
