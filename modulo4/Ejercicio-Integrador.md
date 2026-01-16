@@ -44,7 +44,7 @@ Item:
 - Precio.
 
 Lógica:
-- Crear el modelo del evento con los datos requeridos (nombre, fecha, lugar, precio, imagen, descripción).
+- Crear el modelo del evento con los datos requeridos (id, nombre, fecha, lugar, precio, imagen, imagenDetalle, descripción).
 - Implementar un adaptador.
 - Generar una lista falsa de conciertos, juegos deportivos y obras de teatro. (5 por cada uno al menos).
 - Click Listener: al tocar un evento, debe llevarnos al detalle del mismo.
