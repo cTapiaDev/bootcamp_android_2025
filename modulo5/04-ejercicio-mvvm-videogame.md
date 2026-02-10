@@ -1,5 +1,5 @@
 # GameLibrary: La Evolución a MVVM
-La empresa está contenta con la aplicación la aplicación que muestra la lista de videojuegos, pero los usuarios han reportado un problema grave: <b>"Cada vez que giro el celular para ver mejor el contenido, la lista desaparece y se vuelve a cargar todo de cero".</b>
+La empresa está contenta con la aplicación que muestra la lista de videojuegos, pero los usuarios han reportado un problema grave: <b>"Cada vez que giro el celular para ver mejor el contenido, la lista desaparece y se vuelve a cargar todo de cero".</b>
 
 El equipo de arquitectura ha decidido que la estructura actual (MVC) es insostenible. Se te ha asignado la misión de <b>refactorizar</b> la aplicación para implementar el patrón <b>MVVM (Model-View-ViewModel)</b>.
 
