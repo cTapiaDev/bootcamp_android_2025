@@ -38,7 +38,7 @@ El equipo de arquitectura ha decidido que la estructura actual (MVC) es insosten
 - <b>Mientras el ProgressBar está girando</b>, rota la pantalla de tu celular a horizontal.
 - El `ProgressBar` NO debe desaparecer.
 - La carga NO se reinicia.
-- Cuando termina la carga, la lista aparece automátifcamente en la pantalla horizontal.
+- Cuando termina la carga, la lista aparece automáticamente en la pantalla horizontal.
 
 ---
 
